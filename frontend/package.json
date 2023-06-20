@@ -1,0 +1,50 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@adraffy/ens-normalize": "^1.9.0",
+    "@apollo/client": "^3.7.14",
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@headlessui/react": "^1.7.14",
+    "@heroicons/react": "^1.0.6",
+    "classnames": "^2.3.2",
+    "dotenv": "^16.0.3",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.4",
+    "ethers": "^5.7.2",
+    "formidable": "^2.1.1",
+    "formik": "^2.2.9",
+    "identicon": "^3.1.1",
+    "map": "^1.0.1",
+    "next": "13.3.4",
+    "nft.storage": "^7.0.3",
+    "on": "^1.3.0",
+    "os": "^0.1.2",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-blockies": "^1.4.1",
+    "react-custom-roulette": "^1.4.1",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^9.1.2",
+    "sweetalert": "^2.1.2",
+    "web3": "^1.10.0",
+    "web3modal": "^1.9.12",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  }
+}
