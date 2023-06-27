@@ -119,9 +119,11 @@ console.log(timeLeft);
       setPlayerChoice((playerChoice.signer = [_number, _betType]));
       setBetPopupOpen(false);
       await bet(_number, _betType);
-      const endTime = new Date().getTime() + 40000; // 40 seconds
-      setEndTime(endTime);
-      setCountdown(true);
+      if(timeLeft == 0){
+        const endTime = new Date().getTime() + 40000; // 40 seconds
+        setEndTime(endTime);
+        setCountdown(true);
+      }
       await new Promise((resolve) => setTimeout(resolve, 40000));
       Spin();
     } catch (e) {
