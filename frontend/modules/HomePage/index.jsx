@@ -94,7 +94,7 @@ const HomePage = () => {
       swal({
         position: "center",
         icon: "success",
-        title: "You win!!!",
+        title: "You win!",
         text: `Value:${value} - Bet Type:${betType + 1}.`,
         showConfirmButton: false,
         timer: 5000,
