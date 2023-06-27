@@ -113,7 +113,7 @@ const HomePage = () => {
   const onButtonClick = async () => {
     setBetPopupOpen(true);
   };
-console.log(timeLeft);
+
   const Bet = async (_number, _betType) => {
     try {
       setPlayerChoice((playerChoice.signer = [_number, _betType]));
