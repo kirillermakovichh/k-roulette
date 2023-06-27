@@ -17,7 +17,7 @@ const HomePage = () => {
   const [playerChoice, setPlayerChoice] = useState(new Object());
 
   //COUNTDOWN
-  const [endTime, setEndTime] = useCountdown(new Date().getTime());
+  const [timeLeft, setEndTime] = useCountdown(new Date().getTime());
   const minutes = Math.floor(timeLeft / 60000) % 60;
   const seconds = Math.floor(timeLeft / 1000) % 60;
 
@@ -113,14 +113,14 @@ const HomePage = () => {
   const onButtonClick = async () => {
     setBetPopupOpen(true);
   };
-console.log(endTime);
+console.log(timeLeft);
   const Bet = async (_number, _betType) => {
     try {
       setPlayerChoice((playerChoice.signer = [_number, _betType]));
       setBetPopupOpen(false);
       await bet(_number, _betType);
-      const timeLeft = new Date().getTime() + 40000; // 40 seconds
-      setEndTime(timeLeft);
+      const endTime = new Date().getTime() + 40000; // 40 seconds
+      setEndTime(endTime);
       setCountdown(true);
       await new Promise((resolve) => setTimeout(resolve, 40000));
       Spin();
