@@ -258,7 +258,7 @@ const HomePage = () => {
               </span>
             </button>
           </div>
-          <div className="shrink grow flex-column items-center justify-center">
+          <div className="shrink grow flex-column items-center justify-center ml-[15px]">
             <button
               className={`px-[10px] mb-6 mx-auto rounded-md group flex h-16 items-center justify-center bg-black text-2xl font-semibold text-white hover:bg-transparent border-2 border-black ease-linear duration-150`}
               onClick={GetBalance}
