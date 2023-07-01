@@ -181,17 +181,8 @@ const HomePage = () => {
   const numbersArr1 = [12, 14, 16, 18, 30, 32, 34, 36];
   const numbersArr2 = [11, 13, 15, 17, 29, 31, 33, 35];
 
-  // const onLoading = async () => {
-  //   setLoading(!loading);
-  // };
-  // const onCountDown = async () => {
-  //   setCountdown(!countDown);
-  // };
-
   return (
     <div className="w-full flex-col px-2">
-      {/* <button onClick={onLoading}>Loading</button>
-      <button onClick={onCountDown}>Countdown</button> */}
       <BetForm
         open={betPopupOpen}
         onClose={() => setBetPopupOpen(false)}
