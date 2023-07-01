@@ -23,8 +23,8 @@ const useBets = () => {
 
     const randomNuber = await rouletteContract.queryFilter(
       filterRandomNumber,
-      3529255,
-      4529255
+      3803771,
+      4803771
     );
 
     let randomNumbers = [];
