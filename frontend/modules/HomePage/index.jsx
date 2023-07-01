@@ -180,7 +180,7 @@ const HomePage = () => {
 
   const numbersArr1 = [12, 14, 16, 18, 30, 32, 34, 36];
   const numbersArr2 = [11, 13, 15, 17, 29, 31, 33, 35];
-console.log(numbers)
+
   return (
     <div className="w-full flex-col px-2">
       <BetForm
