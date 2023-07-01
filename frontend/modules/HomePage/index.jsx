@@ -102,7 +102,7 @@ const HomePage = () => {
     } else {
       swal({
         position: "center",
-        title: "You lose.",
+        title: "You lose!",
         text: `Value:${value} - Bet Type:${betType + 1}.`,
         showConfirmButton: false,
         timer: 5000,
