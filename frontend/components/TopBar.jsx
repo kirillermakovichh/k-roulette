@@ -7,7 +7,7 @@ const TopBar = () => {
         <span className="text-lg text-white drop-shadow-lg font-bold cursor-default xs:hidden">
           KERoulette
         </span>
-        <div className="flex-grow flex items-center justify-center w-full">
+        <div className="flex-grow flex items-center justify-center w-full xs:justify-start">
               <a
               href="https://www.youtube.com/channel/UC_7OQZMa8eHONCjMklrYvZg"
               target="_blank"
