@@ -7,11 +7,11 @@ const TopBar = () => {
         <span className="text-lg text-white drop-shadow-lg font-bold cursor-default">
           KERoulette
         </span>
-        <div className="flex-grow flex items-center justify-center my-4 w-full xs:mb-2">
+        <div className="flex-grow flex items-center justify-center w-full">
               <a
               href="https://www.youtube.com/channel/UC_7OQZMa8eHONCjMklrYvZg"
               target="_blank"
-              className="bg-[#000] rounded-full px-4 py-2"
+              className="bg-[#000] rounded-full px-4 py-[2px]"
               >
                 <p className="text-lg text-white font-mono font-semibold">VIDEO GUIDE</p>
               </a>
