@@ -9,7 +9,7 @@ const TopBar = () => {
         </span>
         <div className="flex-grow flex items-center justify-center w-full xs:justify-start">
               <a
-              href="https://www.youtube.com/channel/UC_7OQZMa8eHONCjMklrYvZg"
+              href="https://youtu.be/HyMvyZOZtGQ"
               target="_blank"
               className="bg-[#000] rounded-full px-4 py-[2px]"
               >
